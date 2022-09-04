@@ -1,4 +1,8 @@
 {
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
     "body-parser": "^1.20.0",
     "compression": "^1.7.4",
@@ -16,22 +20,11 @@
     "nodemon": "^2.0.19",
     "npm": "^8.19.0"
   },
-  "name": "incident-management-service",
-  "version": "1.0.0",
-  "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "dev": "nodemon",
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adhamaly/Incident-management-Service.git"
-  },
   "author": "Adham Aly",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adhamaly/Incident-management-Service/issues"
-  },
-  "homepage": "https://github.com/adhamaly/Incident-management-Service#readme",
-  "description": ""
+  "license": "ISC"
 }
