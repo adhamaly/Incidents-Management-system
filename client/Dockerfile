@@ -1,18 +1,18 @@
-FROM node:carbon
+FROM node
 
 WORKDIR /usr/src/app
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
-COPY package*.json ./
+COPY package.json package.json  
 
 # Install any needed packages
-RUN npm i
+RUN npm install
+
 
 # Bundle app source
 COPY . .
 
 EXPOSE 4200
-
 CMD [ "npm", "start" ]

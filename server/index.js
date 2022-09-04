@@ -1,5 +1,5 @@
-const path = require("path");
-require("dotenv").config({ path: `${path.resolve("../.env")}` });
+require("dotenv/config");
+
 const express = require("express");
 const app = express();
 const expressLoader = require("./app/server");
